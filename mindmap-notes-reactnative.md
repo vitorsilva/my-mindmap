@@ -2,7 +2,15 @@
 
 ## React Native
 
-- bare or expo - <https://medium.com/@andrew.chester/should-you-use-expo-or-bare-react-native-8dd400f4a468>
+### Iteration 1
+
+#### initial thoughts
+
+trying to get the minimal version of a react native app built by me running on my phone
+
+#### bare or expo
+
+<https://medium.com/@andrew.chester/should-you-use-expo-or-bare-react-native-8dd400f4a468>
 
 react native demo app
 using expo
@@ -11,7 +19,7 @@ bonus: vs code configuration
 
 i want to start a project to help me learn react native. i'll go with the expo option. i want you to write as little code as possible so that i can learn better
 
-- accessing UI elements and states
+#### accessing UI elements and states
 
 when i press the button i want to show the text that i wrote on the textbox. it seems strange that the ui elements don't have somekind of id that i can use to do something like textbox.text... can you explain me how it works?
 
@@ -34,7 +42,7 @@ when i press the button i want to show the text that i wrote on the textbox. it 
 
 1. The Button reads from state:
 
-- When pressed, it just reads the current state value
+#### When pressed, it just reads the current state value
 
 Try this:
 
@@ -54,7 +62,7 @@ Try this:
 
   Give it a try and let me know if it clicks or if you have more questions!
 
-- setState
+#### setState
 
   ok, but where is the setInputValue function?
 
@@ -93,11 +101,11 @@ Try this:
 
   Does that help clarify it?
 
-- open 8081 in firewall
+#### open 8081 in firewall
 
   nao esquecer de ativar a porta 8081 na firewall
 
-- deploying the application
+#### deploying the application
 
    it works. but i want it to be saved on my phone, how do i deploy it?
 
@@ -135,7 +143,7 @@ This will:
 
   Alternative (if you want a quick test): You can also build locally, but it requires more setup (Android Studio, etc.). EAS Build is much simpler.
 
-- credentials stored
+#### credentials stored
 
 when i do eas-login where is the login information stored? i just want to know if i have to take that in consideration so that it doesnt leak into a public repo
 
@@ -169,3 +177,23 @@ when i do eas-login where is the login information stored? i just want to know i
 - *.key,*.jks, etc. (lines 15-19) - signing keys and certificates
 
   Bottom line: Your EAS login is safe and won't leak into the repo. The Expo template has you covered!
+
+#### unable to install on mobile phone
+
+1. Bypass Play Protect (Temporary Solution)
+
+Tap "Install anyway" (Instalar mesmo assim) if the option appears
+Or temporarily disable Play Protect:
+
+Open Google Play Store
+Go to Menu → Play Protect
+Tap Settings (gear icon)
+Toggle off "Scan apps with Play Protect"
+Install your APK
+Important: Re-enable Play Protect after installation
+
+#### final thoughts
+
+it didnt feel very complicated to do this but it still seems a lot of work to just get a compiled piece of software i built running on what effetively is a computer but happens to be a mobile phone.
+using expo feels a bit like cheating but i'll live with it for now
+before adding more (any) funcionalities i think i want to see a bit more of the distribution / deployment process, simple things like setting as icon, adding to the initial screen and so on.
