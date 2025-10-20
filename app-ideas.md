@@ -40,3 +40,11 @@ or create an mcp?
 
 create that suggests break-fast, mid-day snack, lunch and dinner menus
 maybe based on initial user generated ideas
+
+## mutation testing
+
+try
+
+## archunit
+
+try to add archunit tests to some public repositories and see if it works with AI
