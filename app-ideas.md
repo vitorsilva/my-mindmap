@@ -48,3 +48,7 @@ try
 ## archunit
 
 try to add archunit tests to some public repositories and see if it works with AI
+
+## abstract image generator
+
+generate images based on text, text properties, etc.
