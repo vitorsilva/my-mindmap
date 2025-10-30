@@ -13,6 +13,8 @@ generate questions / answers from topics => connect to AI provider
 generate additional learning material
 keep track of score
 
+→ [Full exploration](quiz-generator-exploration.md)
+
 ## family coin
 
 experiment with ledger and transfer money between accounts and crypto stuff
