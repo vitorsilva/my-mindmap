@@ -1,11 +1,5 @@
 # App Ideas
 
-## Expense Register
-
-register personal expenses
-experiment with bank apis
-experiment with webservices to identify stuff
-
 ## quizz generator (with AI)
 
 help students learn
@@ -15,9 +9,22 @@ keep track of score
 
 → [Full exploration](quiz-generator/quiz-generator-exploration.md)
 
+## meals randomizer
+
+create that suggests break-fast, mid-day snack, lunch and dinner menus
+maybe based on initial user generated ideas
+
+→ [Full exploration](meals-randomizer/meals-randomizer-exploration.md)
+
 ## family coin
 
 experiment with ledger and transfer money between accounts and crypto stuff
+
+## Expense Register
+
+register personal expenses
+experiment with bank apis
+experiment with webservices to identify stuff
 
 ## roblox exhibition planner
 
@@ -37,11 +44,6 @@ revamp my blog
 read the browser history to get a sense of what i learned during the week
 maybe only use existing tools for that
 or create an mcp?
-
-## meals randomizer
-
-create that suggests break-fast, mid-day snack, lunch and dinner menus
-maybe based on initial user generated ideas
 
 ## mutation testing
 
